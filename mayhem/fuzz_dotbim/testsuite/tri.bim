@@ -1,0 +1,1 @@
+{"schema_version":"1.0.0","meshes":[{"mesh_id":0,"coordinates":[0,0,0,1,0,0,0,1,0],"indices":[0,1,2]}],"elements":[{"mesh_id":0,"vector":{"x":0,"y":0,"z":0},"rotation":{"qx":0,"qy":0,"qz":0,"qw":1},"guid":"a","type":"Wall","color":{"r":1,"g":2,"b":3,"a":255},"info":{}}],"info":{}}

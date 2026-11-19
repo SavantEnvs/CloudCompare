@@ -1,0 +1,13 @@
+# name             header             class            ext     extra sources (relative to repo root, ';'-separated)
+bin                BinFilter.h        BinFilter        bin     -
+ply                PlyFilter.h        PlyFilter        ply     -
+ascii              AsciiFilter.h      AsciiFilter      txt     -
+dxf                DxfFilter.h        DxfFilter        dxf     -
+shp                ShpFilter.h        ShpFilter        shp     -
+obj                ObjFilter.h        ObjFilter        obj     plugins/core/IO/qCoreIO/src/ObjFilter.cpp
+stl                STLFilter.h        STLFilter        stl     plugins/core/IO/qCoreIO/src/STLFilter.cpp
+off                OFFFilter.h        OFFFilter        off     plugins/core/IO/qCoreIO/src/OFFFilter.cpp
+vtk                VTKFilter.h        VTKFilter        vtk     plugins/core/IO/qCoreIO/src/VTKFilter.cpp
+ptx                PTXFilter.h        PTXFilter        ptx     plugins/core/IO/qCoreIO/src/PTXFilter.cpp
+sbf                SimpleBinFilter.h  SimpleBinFilter  sbf     plugins/core/IO/qCoreIO/src/SimpleBinFilter.cpp
+dotbim             DotbimFilter.h     DotbimFilter     bim     plugins/core/IO/qCoreIO/src/DotbimFilter.cpp

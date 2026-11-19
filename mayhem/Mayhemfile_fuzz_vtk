@@ -1,0 +1,11 @@
+project: savantenvs/CloudCompare
+target: fuzz_vtk
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_vtk/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_vtk
+    libfuzzer: true
+    timeout: 10
+    env:
+      QT_QPA_PLATFORM: offscreen
